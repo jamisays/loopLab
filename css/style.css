@@ -1,0 +1,44 @@
+body {
+  color: #fff;
+  background: #333; }
+
+nav {
+  border-bottom: #4267b2 3px solid;
+  opacity: 0.8; }
+
+#home-section {
+  background: url("../img/social.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px; }
+  #home-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 80;
+    left: 0;
+    width: 100%;
+    height: 700px; }
+  #home-section .card-form {
+    opacity: .8; }
+  #home-section .fa {
+    color: #4267b2;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px; }
+  #home-section .home-inner {
+    padding-top: 80px; }
+
+#explore-body .fa, #share-body .fa {
+  color: #fff;
+  background: #333;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px; }
+
+#create-body .fa {
+  color: #4267b2;
+  background: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px; }
